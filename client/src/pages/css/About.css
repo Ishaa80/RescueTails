@@ -1,0 +1,40 @@
+/* About.css */
+.about-section {
+  background-color: #ffb909;
+  padding: 40px 0;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-content {
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+h3 {
+  color: #2c2828;
+}
+
+p {
+  color: #2a2525;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #342a2a;
+}
+
+/* Add more styling as needed */

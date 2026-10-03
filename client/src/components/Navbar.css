@@ -1,0 +1,55 @@
+/* Navbar.css */
+
+.navbarr {
+    background-color: #ffab40   ; /* background color */
+    padding: 2.2rem 0;
+    height: 6rem;
+  }
+  
+  .container {
+    max-width: fit;
+    margin: 0 auto;
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+  }
+  
+  .header-name a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #020202; /* text color */
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 2px;
+  }
+  
+  .main_nav {
+    margin-left: 68rem; /* Move the navbar to the right */
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 2rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #757512;
+    transition: all;
+    
+  }
+  

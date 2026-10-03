@@ -1,0 +1,114 @@
+/* Contact.css */
+
+.contactpg-background-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-heading{
+    font-size: x-large;
+  }
+  
+  .contactpg-container {
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .contactpg-contact-container {
+    flex: 0 0 60%;
+  }
+  
+  .contactpg-contact-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .contactpg-contact-content h2 {
+    text-align: center;
+    font-size: 24px; /* Increased font size */
+  }
+  
+  .contactpg-contact-content p {
+    text-align: center;
+    font-size: 18px; /* Increased font size */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    font-size: large;
+  }
+  
+  .contactpg-label-content {
+    display: block;
+    margin-bottom: 8px;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
+  }
+  textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .contactpg-login-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #8B4513; /* Brown background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contactpg-login-submit:hover {
+    background-color: #A0522D; /* Darker brown on hover */
+  }
+  
+  .contactpg-contact-info {
+    flex: 0 0 35%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .contactpg-contact-info h2 {
+    text-align: center;
+    font-size: 24px; /* Increased font size */
+  }
+  
+  .animal-image {
+    width: 150px; /* Increased image size */
+    height: 150px; /* Increased image size */
+    border-radius: 10%;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .contactpg-contact-info p {
+    text-align: center;
+    font-size: 18px; /* Increased font size */
+  }
+  

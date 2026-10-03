@@ -1,0 +1,41 @@
+/* RescuerHome.css */
+
+.rh_container {
+  width: 100%;
+}
+
+
+.rh_main_navv {
+  height: 40px;
+  padding: 15px 0; /* Adjust padding as needed */
+  background-color: #8B4513; /* Brown background color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Adjust padding as needed */
+}
+
+.rh_main_navv ul {
+  display: flex;
+  list-style: none;
+}
+
+.rh_main_navv li {
+  margin-right: 20px;
+}
+
+.rh_main_navv a {
+  text-decoration: none;
+  color: #fff; /* White text color */
+  font-size: 1.6rem; /* Adjust font size as needed */
+  display: flex;
+  align-items: center;
+}
+
+.rh_main_navv a svg {
+  margin-right: 5px; /* Adjust margin as needed */
+}
+
+.rh_main_navv a:hover {
+  color: #ffd700; /* Gold color on hover */
+}
